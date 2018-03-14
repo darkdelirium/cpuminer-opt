@@ -384,8 +384,10 @@ void yescrypthash(void *output, const void *input)
 int scanhash_yescrypt( int thr_id, struct work *work, uint32_t max_nonce,
                        uint64_t *hashes_done )
 {
-        uint32_t _ALIGN(64) vhash[8];
-        uint32_t _ALIGN(64) endiandata[20];
+	uint32_t vhash[8] __attribute__((aligned(64)));
+	uint32_t endiandata[20] __attribute__((aligned(64)));
+//        uint32_t _ALIGN(64) vhash[8];
+//        uint32_t _ALIGN(64) endiandata[20];
         uint32_t *pdata = work->data;
         uint32_t *ptarget = work->target;
 

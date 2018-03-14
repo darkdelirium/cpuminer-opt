@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Copyright 2012 pooler@litecoinpool.org
 #
 # This program is free software; you can redistribute it and/or modify it

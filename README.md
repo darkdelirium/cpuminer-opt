@@ -1,15 +1,15 @@
+This version provides FreeBSD compatibility.
+FreeBSD:
+simple run ./build.sh
+
+
+
 cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
 Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional
 optimizations by Jay D Dee.
 
-All of the code is believed to be open and free. If anyone has a
-claim to any of it post your case in the cpuminer-opt Bitcoin Talk forum
-or by email.
-
-https://bitcointalk.org/index.php?topic=1326803.0
-
-mailto://jayddee246@gmail.com
+All of the code is believed to be open and free.
 
 See file RELEASE_NOTES for change log and compile instructions.
 
@@ -128,25 +128,12 @@ Benchmark testing does not work for x11evo.
 Bugs
 ----
 
-Users are encouraged to post their bug reports on the Bitcoin Talk
-forum at:
-
-https://bitcointalk.org/index.php?topic=1326803.0
-
 All problem reports must be accompanied by a proper definition.
 This should include how the problem occurred, the command line and
 output from the miner showing the startup and any errors.
 
 Donations
 ---------
-
-cpuminer-opt has no fees of any kind but donations are accepted.
-
- BTC: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
- ETH: 0x72122edabcae9d3f57eab0729305a425f6fef6d0
- LTC: LdUwoHJnux9r9EKqFWNvAi45kQompHk6e8
- BCH: 1QKYkB6atn4P7RFozyziAXLEnurwnUM1cQ
- BTG: GVUyECtRHeC5D58z9F3nGGfVQndwnsPnHQ
 
 Happy mining!
 
